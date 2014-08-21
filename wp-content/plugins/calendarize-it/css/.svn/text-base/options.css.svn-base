@@ -1,0 +1,22 @@
+
+.rhc-option-preview {
+	width:100%;
+	display:block;
+	text-align:center;
+	padding:7px 0;
+}
+
+/* styles for the list of events filter */
+.rhc_list_filter {
+	width:71px;
+}
+
+select.rhc_opt_filter {
+	max-width:100px;
+}
+
+
+
+#rhc-shortcode-layout .pop-preview-item img {
+	width:100%;
+}

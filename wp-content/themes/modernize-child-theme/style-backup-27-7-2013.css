@@ -1,0 +1,1588 @@
+
+/*
+Theme Name: Modernize Child Theme
+Theme URI: -
+Description: Modernize WordPress Theme
+Template: modernize_v2-23
+Author: Goodlayers
+Author URI: http://goodlayers.com
+*/
+
+@import url("../modernize_v2-23/style.css");
+/* #Regular Ol' Custom Styles
+================================================== */
+
+/*
+ *	Updated 1/4/2013 by Andrew Versalle
+ *	Added custom styles for the homepage
+ */
+i {
+  font-style: italic;
+}
+b {
+  font-weight: bold;
+}
+
+html {
+	background: #9A9A9A !important;
+}
+body {
+	font-family: Arial, sans-serif !important;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%) !important;
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%) !important;
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%) !important;
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E6E6E6), color-stop(1, #9A9A9A)) !important;
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%) !important;
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #E6E6E6 0%, #9A9A9A 100%) !important;
+	color: #484848 !important;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6E6E6', endColorstr='#9A9A9A');
+}
+.title-color {
+	color: #484848 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #484848 !important;
+	font-family: Arial, sans-serif !important;
+	font-weight: normal;
+	line-height: 1;
+}
+a {
+	color: #484848 !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+}
+#wpadminbar a {
+	color: #CCCCCC !important;
+	font-weight: normal !important;
+}
+a:active {
+	color: #05b3c8 !important;
+	text-decoration: none !important;
+}
+div.container {
+	background: none repeat scroll 0 0 #FFFDFD !important;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5) !important;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5) !important;
+}
+p.event-hidden-p {
+	display: none;
+}
+.top-navigation.container {
+	box-shadow: none !important;
+	background: transparent !important;
+}
+.copyright-wrapper {
+	box-shadow: none !important;
+}
+.logo-wrapperChild {
+    left: -130px;
+    position: absolute;
+    top: -98px;
+}
+.responsiveLogo{
+	display:none;	
+}
+.logo-wrapperChild a {
+	width: 680px!important;
+	display:block!important; 
+}
+.logo-wrapperChild a img
+{
+	display:block!important; 
+}
+div.navigation-wrapper {
+	background: none repeat scroll 0 0 #484848 !important;
+	border-bottom: none !important;
+	border-top: none !important;
+	box-shadow: none !important;
+	margin-left: 0 !important
+}
+div.top-navigation-left {
+	float: right !important;
+	margin-left: 0px !important;
+}
+div.top-navigation-right {
+	float: left !important;
+	margin-right: 0px !important;
+}
+div.copyright-left {
+	margin-left: 0px !important;
+}
+.copyright-left ul {
+	list-style-type: none !important;
+}
+.copyright-left ul li {
+	border-right: 1px solid #9d9c9c;
+	padding: 0 10px;
+	float: left !important;
+}
+.copyright-left ul li:last-child {
+	border-right: none !important;
+}
+.copyright-left ul li:first-child {
+	padding-left: 0 !important;
+}
+.copyright-right img {
+	margin-left: 15px !important;
+	float: right !important;
+}
+.navigation-wrapper .sf-menu li a {
+	border-left: medium none !important;
+	border-right: medium none !important;
+	color: #FEFDFD !important;
+	padding: 8px 21.5px 8px 0 !important;
+	text-transform: uppercase;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.menu-top-navigation-menu-container {
+	float: right;
+	padding: 7px;
+}
+#main-superfish-wrapper ul li.current-menu-item, #main-superfish-wrapper ul li:hover {
+	background: #292929 !important;
+}
+#main-superfish-wrapper ul li.current-menu-item a, #main-superfish-wrapper ul li a:hover {
+	color: #05b3c8 !important;
+}
+div.search-wrapper form {
+	padding: 0 !important;
+}
+.search-wrapper {
+	border-left: none !important;
+}
+.search-wrapper form {
+	border-left: none !important;
+}
+ul.sf-menu li {
+	padding: 0 !important;
+}
+#megaUber li#menu-item-37 {
+	padding: 0 !important;
+	border-right: 1px solid;
+}
+#megaUber li#menu-item-37 a,
+#megaUber li#menu-item-1067 a {
+	background-image: url('../../../wp-content/uploads/2012/12/home-icon.png');
+	background-repeat: no-repeat !important;
+	text-indent: -9999px !important;
+	padding: 24px 26px 0 !important;
+}
+div#main-superfish-wrapper {
+	margin-left: 0 !important;
+}
+div.slider-wrapper.fullwidth, div.navigation-wrapper {
+	margin-left: 0 !important;
+}
+.header-wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+	width: 980px;
+	margin-bottom: 0 !important;
+	margin-top: 66px;
+}
+/* #Base 960 Grid
+================================================== */
+
+
+.footer-wrapper {
+	margin: 15px auto !important;
+	position: relative !important;
+	width: 980px !important;
+}
+.breadcrumb-wrapper {
+	margin: 15px auto !important;
+	position: relative !important;
+	width: 980px !important;
+}
+.breadcrumb-wrapper a {
+	text-decoration: underline !important;
+}
+.gdl-page-item h3 {
+	color: #494949 !important;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+}
+.home .gdl-page-item {
+	width: 980px !important;
+}
+.gdl-page-item-2 {
+	width: 620px;
+}
+.home .container {
+	width: 980px !important;
+}
+.column, .columns {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.home .container .sixteen.columns {
+	width: 980px !important;
+}
+.home .container .eight.columns {
+	width: 480px;
+	margin-top: 15px !important;
+}
+.home .gdl-page-item .sixteen {
+	margin-top: 15px !important;
+}
+div.slider-wrapper.fullwidth, div.navigation-wrapper {
+	box-shadow: .5) !important;
+}
+.container .five.columns {
+	width: 260px !important;
+}
+/* #Calendar Style Overrides
+================================================== */
+
+.fct-body .fc-image a img {
+	border: none !important;
+	float: none !important;
+	margin: 0 !important;
+	max-width: 312px !important;
+	width: 100% !important;
+	padding: 0 !important;
+}
+.fc-start, .fc-end, .fc-hide {
+	margin-bottom: 5px;
+}
+.fc-event-list-content .fc-event-list-description {
+	border-bottom: none !important;
+	border-top: none !important;
+}
+.event-list-start-image {
+	float: left;
+	width: 25%;
+}
+.event-list-start-image h5 {
+	float: left;
+	width: 40%;
+	background: #484848 !important;
+	padding: 5px;
+	color: #fff !important;
+}
+.event-list-start-image .fc-event-list-featured-image {
+	float: left !important;
+	width: 50% !important;
+	margin: 0 !important;
+}
+.fc-event-list-holder .fc-event-list-featured-image img {
+	border: none !important;
+	padding: 0 !important;
+}
+.fc-event-list-item .buy-tickets {
+	background: url("images/buy-tix-button-bg.jpg") repeat-x scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	float: right;
+	padding: 5px 20px;
+}
+.page-id-30 .donate-now-button, li#menu-item-198 .donate-now-button {
+	background: url("images/buy-tix-button-bg.jpg") repeat-x scroll 0 0 transparent !important;
+	color: #FFFFFF !important;
+	float: left !important;
+	padding: 5px 20px !important;
+}
+.fc-event-list-content h4 .fc-event-list-title {
+	font-weight: normal !important;
+}
+.fc-event-list-content h4 {
+	margin-bottom: 0 !important;
+}
+.fct-header h5 {
+	font-size: 12px !important;
+}
+.tool-tip-buttons .buy-tickets {
+	background: url("images/buy-tix-button-bg.jpg") repeat-x scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	float: left;
+	padding: 5px 20px;
+}
+.tool-tip-buttons .tool-tip-event-info {
+	background: url("images/buy-tix-button-bg.jpg") repeat-x scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	float: right;
+	padding: 5px 20px;
+}
+.fct-tooltip {
+	border-radius: 10px 10px 0px 0px !important;
+	padding: 10px !important;
+	background: #e9e7e7 !important;
+}
+.fc-tip-right .fct-arrow-holder {
+	left: 350px !important;
+}
+
+/* Formatting the homepage slider (1/4/2013-AV) */
+/* Moving the nav to the bottom right corner */
+.slider-wrapper .nivo-controlNav {
+	bottom: 18px;
+	left: auto !important;
+	position: absolute;
+	right: 20px;
+}
+/* Removing the previous and next arrows */
+.nivo-directionNav {
+	display: none;
+}
+/* Removing padding from slider */
+.home .gdl-page-item {
+	padding-bottom: 0px;
+}
+/* Removing the bottom "border" */
+.home .slider-bottom-gimmick {
+	height: 0px;
+}
+/* Removing the box shadows */
+.home .slider-top-shadow, .home .slider-bottom-shadow {
+	height: 0px;
+}
+/* Formatting the Calendarize It DIV (1/4/2013-AV) Edited by AM on Jan 4, 2013 */
+#calendarizeIt {
+	background: none repeat scroll 0 0 #FFFFFF;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .5) !important;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .5) !important;
+	padding: 15px;
+	overflow: hidden !important;
+}
+/* Formatting the homepage bottom DIVs (1/4/2013-AV) */
+/* Removing the template background */
+.home .container {
+	background: none !important;
+	box-shadow: none !important;
+}
+/* Left DIV Edited by AM on Jan 4, 2013 */
+.home #column_bottomLeft {
+	background: none repeat scroll 0 0 #FFFFFF;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .5) !important;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .5) !important;
+	padding: 15px;
+}
+/* Right DIV  Edited by AM on Jan 4, 2013 */
+.home #column_bottomRight {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .5) !important;
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5) !important;
+	padding: 15px;
+}
+.home #column_bottomLeft p, .home #column_bottomRight p {
+	margin-bottom: 10px;
+}
+.home .container .eight.columns:last-child {
+	margin-left: 15px !important;
+}
+/* DIV headings */
+.columnHeading {
+	color: #494949;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/* Formatting the image */
+#column_bottomLeft img, #column_bottomRight img {
+	padding-bottom: 5px;
+}
+/* "Read More" formatting */
+.readMore {
+	color: #05B3C8 !important;
+	text-transform: uppercase;
+}
+.both-sidebar-included .gdl-page-item {
+	width: 480px !important;
+	padding-left: 10px !important;
+}
+div.right-sidebar-wrapper .custom-sidebar-title {
+	border-bottom-style: none !important;
+	border-bottom-width: 0 !important;
+}
+div.custom-sidebar {
+	border-top: 1px solid #000 !important;
+	border-color: #000 !important;
+	padding-top: 15px;
+}
+h1.gdl-page-title {
+	border-bottom: none !important;
+	font-size: 25px;
+	padding-top: 20px !important;
+	padding-bottom: 6px;
+}
+div.gdl-page-content {
+	margin-top: 0px !important;
+}
+.current-menu-item > a {
+	color: #05b3c8 !important;
+}
+.current-menu-parent > a {
+	color: #05b3c8 !important;
+}
+.custom-sidebar ul li {
+	background: none !important;
+	border: none !important;
+}
+div.left-sidebar-wrapper, div.right-sidebar-wrapper {
+	box-shadow: none !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+div.custom-sidebar ul li {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: inherit;
+	padding-top: 9px;
+	padding-bottom: 0px !important;
+}
+div.both-sidebar-included {
+	padding: 0 20px;
+}
+.container div.both-sidebar-included .four.columns {
+	width: 215px !important;
+}
+.home .gdl-page-title, .page-id-7 .gdl-page-title {
+	display: none !important;
+}
+div#calendarizeIt a.calendar-link {
+	float: right;
+	color: #05b3c8 !important;
+	text-transform: uppercase;
+	display: inline !important;
+}
+div#calendarizeIt #Widgets_on_Pages_1 {
+	overflow: hidden;
+}
+div#calendarizeIt #Widgets_on_Pages_1 ul {
+	margin-left: 0 !important;
+	list-style-type: none;
+}
+div#calendarizeIt h3 {
+	float: left;
+}
+.rhc-widget-upcoming-item {
+	float: left !important;
+	width: 31% !important;
+	clear: none !important;
+	margin-right: 33px !important;
+}
+.rhc-widget-upcoming-item:last-child {
+	margin-right: 0px !important;
+}
+.rhc-widget-upcoming-featured-image {
+	width: 100% !important;
+	float: none!important;
+}
+.rhc-widget-upcoming {
+	float: none !important;
+	width: 100% !important;
+}
+.rhc-widget-upcoming-featured-image img {
+	border: none !important;
+	padding: 0 !important;
+}
+.upc-event-wrapper {
+	clear: both;
+}
+.rhc-widget-date-time {
+	font-size: 18px !important;
+	margin-top: 15px;
+}
+.upcoming-events-readmore a {
+	float: left;
+	clear: both !important;
+	color: #05b3c8 !important;
+	text-transform: uppercase !important;
+}
+.upcoming-events-tickets a {
+	float: right;
+	background: url("images/buy-tix-button-bg.jpg") repeat-x scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	padding: 5px 20px;
+}
+.upcoming-events-buttons {
+	margin-top: 10px !important;
+}
+.rhc-description {
+	margin-top: 5px !important;
+}
+.textwidget .menu-heading-link {
+	color: #fff !important;
+}
+span.fc-button-icalendar {
+	display: none;
+}
+.calendar-key {
+	width: 98%;
+	padding: 15px;
+	margin-top: 25px;
+}
+.calendar-key h4 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #929497;
+}
+.calendar-key ul li {
+	font-size: 20px !important;
+}
+.calendar-key ul li span {
+	color: #666666 !important;
+	font-size: 14px !important;
+}
+.calendar-key ul li.per-type-one {
+	list-style-type: disc !important;
+	color: #f4078d !important;
+}
+.calendar-key ul li.per-type-two {
+	list-style-type: disc !important;
+	color: #07caf4 !important;
+}
+.calendar-key ul li.per-type-three {
+	list-style-type: disc !important;
+	color: #4ec90b !important;
+}
+.calendar-key ul li.per-type-four {
+	list-style-type: disc !important;
+	color: #feae02 !important;
+}
+.calendar-key ul li.per-type-five {
+	list-style-type: disc !important;
+	color: #9000ff !important;
+}
+table.faq-table {
+	border: none !important;
+}
+table.faq-table td {
+	border-right: none !important;
+}
+table.faq-table a.faq-subscriptions-link {
+	color: #05b3c8 !important;
+}
+.blog-continue-reading {
+	margin: 0 20px 0 0 !important;
+	color: #05b3c8 !important;
+	float: right;
+}
+div.left-sidebar-wrapper .custom-sidebar-title, div.right-sidebar-wrapper .custom-sidebar-title {
+	border: none !important;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.about-author-wrapper, .single-thumbnail-author {
+	display: none !important;
+}
+/* Event Page */
+
+.event-page-wrapper {
+	margin-top: 25px;
+	overflow: hidden;
+	padding: 0 25px 25px 25px;
+	width: 97%;
+}
+.event-page-left {
+	width: 60%;
+	float: left;
+	margin-right: 25px;
+}
+.event-page-right {
+	width: 37%;
+	float: left;
+}
+.event-page-image {
+	margin-bottom: 50px;
+}
+.event-page-sponsors {
+}
+.event-page-header-wrap {
+	padding: 10px;
+	border-top: 32px solid #05b3c8;
+}
+.event-page-header h2 {
+	margin-bottom: 5px;
+}
+.event-page-header h6 {
+	font-style: italic;
+	margin-bottom:3px;
+}
+.event-page-featuring {
+	margin: 25px 0
+}
+.event-page-featuring h2 {
+	margin-bottom: 5px;
+}
+.event-page-featuring h2 span {
+	font-style: italic;
+	font-size: 17px;
+}
+.event-page-dates h2 {
+	margin-bottom: 5px;
+	font-size: 18px !important;
+}
+.event-page-dates h2, .event-page-program-info-wrapper h2 {
+	background: none repeat scroll 0 0 #484848;
+	color: #FFFFFF !important;
+	font-size: 15px !important;
+	font-weight: bold;
+	padding: 10px 10px 8px 10px;
+	text-transform: uppercase;
+}
+.event-page-program-info-wrapper {
+	clear: both;
+}
+.event-page-program-info {
+	padding: 0 10px 10px 10px;
+}
+.event-page-info {
+	padding: 5px;
+	margin: 0 5px 5px 0;
+	background: #e1e1e1;
+	float: left;
+	width: 261px;
+}
+.event-page-dates {
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.back-to-calendar a {
+	display: block;
+	color: #05b3c8 !important;
+	margin-bottom: 25px !important;
+}
+.sponsor-p {
+	font-style: italic;
+}
+.event-page-info p span {
+	font-size: 18px;
+}
+.event-page-info p {
+	font-size: 13px;
+}
+.event-page-buy-tickets .buy-tickets {
+	background: url("images/buy-tix-button-bg.jpg") repeat-x scroll 0 0 transparent;
+	color: #FFFFFF !important;
+	padding: 5px 20px;
+}
+.event-page-buy-tickets p {
+	margin-bottom: 5px !important;
+}
+.faq-table iframe {
+	vertical-align: top !important;/*display: inline-table !important;*/
+}
+span.wpcf7-form-control-wrap input[type="text"], span.wpcf7-form-control-wrap input[type="[password"] {
+	max-width: 72% !important;
+	width: 100% !important;
+}
+span.wpcf7-form-control-wrap textarea {
+	width: 70% !important;
+}
+#move-content-down {
+	width: 980px;
+	margin: 0 auto;
+}
+div.sidebar-included {
+	padding: 0 20px;
+}
+.fc-header {
+	background: #484848 !important;
+	margin-bottom: 13px !important;
+}
+.fc-header td {
+	padding: 13px 13px 0 13px !important;
+}
+.fc-header-title h2 {
+	color: #fff !important;
+	font-size: 20px !important;
+}
+.fbd-body {
+	background: #E6E6E6 !important;
+}
+.fbd-head {
+	background-color: #05B3C8 !important;
+	background-image: none !important;
+	border-bottom: none !important;
+	box-shadow: 0 1px 0 #FFFFFF;
+	cursor: move;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	padding: 0 !important;
+	text-shadow: 0 1px 0 white;
+}
+.fbd-main-holder {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #484848 !important;
+	background-image: none !important;
+	box-shadow: 0 1px 5px #000000 !important;
+	display: block;
+	position: relative;
+}
+.fbd-dialog-content {
+	font-size: 13px;
+	margin: 0 7px 0 7px !important;
+	padding: 7px 0 0 0 !important;
+}
+a.button, button, input[type="submit"], input[type="reset"], input[type="button"], a.gdl-button, a.button, button, input[type="submit"], input[type="reset"], input[type="button"], a.gdl-button {
+	box-shadow: none !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+a.button, button, input[type="submit"], input[type="reset"], input[type="button"], a.gdl-button {
+	background-color: #05B3C8;
+	border: 1px solid #DEDEDE;
+	color: #fff;
+}
+a.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	padding: 5px 25px;
+	text-transform: lowercase;
+}
+.fbd-arrow, .fbd-arrow-border {
+	border-color: transparent transparent #05B3C8 !important;
+}
+.fc-filters-dialog {
+	top: -9px !important;
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+	border: 1px solid #CECECE !important;
+}
+.fbd-arrow-holder {
+	left: 80px !important;
+}
+.fbd-ul li.fbd-tabs {
+	background: #e6e6e6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.fbd-ul li.fbd-tabs.fbd-active-tab {
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+}
+.fc-state-default, .fc-state-default .fc-button-inner {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+}
+.container .sixteen.columns .fullCalendar {
+	width: 960px !important;
+}
+.fc-event-time {
+	display: none !important;
+}
+.fc-event-title {
+	color: #484848 !important;
+}
+a.fc-event, a.fc-event-skin, a.fc-event-hori, a.fc-corner-left, a.fc-corner-right {
+	background-color: transparent !important;
+	border-color: transparent !important;
+	color: #484848 !important;
+}
+.fc-event-inner.fc-event-skin {
+	background-color: transparent !important;
+	border-color: transparent !important;
+	color: #484848 !important;
+}
+.event-bullet {
+	background-color: transparent !important;
+	border-color: transparent !important;
+	display: block;
+	float: left;
+	font-size: 28px !important;
+	margin-right: 4px;
+}
+table.event-color-key {
+	margin-bottom: 10px !important;
+	width: 100% !important;
+	background: #f4f4f4 !important;
+	border: 1px solid #DFDFDF !important;
+	padding: 5px !important;
+}
+.fc-state-highlight {
+	background: none repeat scroll 0 0 #fff !important;
+	border: 1px solid #05B3C8 !important;
+}
+.faq-table div, .faq-table span, .faq-table applet, .faq-table object, .faq-table iframe, .faq-table h1, .faq-table h2, .faq-table h3, .faq-table h4, .faq-table h5, .faq-table h6, .faq-table p, .faq-table blockquote, .faq-table pre, .faq-table a, .faq-table abbr, .faq-table acronym, .faq-table address, .faq-table big, .faq-table cite, .faq-table code, .faq-table del, .faq-table dfn, .faq-table em, .faq-table img, .faq-table ins, .faq-table kbd, .faq-table q, .faq-table s, .faq-table samp, .faq-table small, .faq-table strike, .faq-table strong, .faq-table sub, .faq-table sup, .faq-table tt, .faq-table var, .faq-table b, .faq-table u, .faq-table i, .faq-table center, .faq-table dl, .faq-table dt, .faq-table dd, .faq-table ol, .faq-table ul, .faq-table li, .faq-table fieldset, .faq-table form, .faq-table label, .faq-table legend, .faq-table table, .faq-table caption, .faq-table tbody, .faq-table tfoot, .faq-table thead, .faq-table tr, .faq-table th, .faq-table td, .faq-table article, .faq-table aside, .faq-table canvas, .faq-table details, .faq-table embed, .faq-table figure, .faq-table figcaption, .faq-table footer, .faq-table header, .faq-table hgroup, .faq-table menu, .faq-table nav, .faq-table output, .faq-table ruby, .faq-table section, .faq-table summary, .faq-table time, .faq-table mark, .faq-table audio, .faq-table video {
+	vertical-align: top !important;
+}
+.div.custom-sidebar #searchsubmit, div.search-wrapper input[type="submit"] {
+  background-color: transparent !important;
+}
+li#menu-item-37.dont-show {
+	max-height: 0px !important;
+}
+div.wpcf7-mail-sent-ok {
+  background: none repeat scroll 0 0 #05B3C8 !important;
+border: 1px solid #CECECE !important;
+color: #FFFFFF !important;
+padding: 6px !important;
+width: 71% !important;
+font-weight: bold !important;
+}
+.wpcf7-form-control-wrap span.wpcf7-not-valid-tip {
+  width: 280px !important;
+}
+span.wpcf7-not-valid-tip {
+  background: none repeat scroll 0 0 #fff !important;
+  border: none !important;
+  margin: 0 4px !important;
+  padding: 0 5px !important;
+  color: #ff0000 !important;
+  top: -36px !important;
+  left: 10px !important;
+}
+div.wpcf7-validation-errors {
+	background: none repeat scroll 0 0 #F7E700 !important;
+border: 1px solid #CECECE !important;
+color: #000 !important;
+padding: 6px !important;
+width: 71% !important;
+font-weight: bold !important;
+}
+.wpcf7-form p .message span.wpcf7-not-valid-tip {
+	top: -190px !important;
+}
+div.search-wrapper input[type="submit"] {
+  margin: 3px 0 3px 10px !important;
+  padding: 0 !important;
+}
+.top-navigation-wrapper .container {
+	width: 980px !important;
+}
+a.content-link {
+  color: #05B3C8 !important;
+}
+.page-template-default .mt30 {
+  margin-top: 5px !important;
+}
+/* year view calendar */
+.yc_wrapper { width:960px !important; max-width:width:960px; float:left; display:table; }
+.yc_bunch { width:480px !important; max-width:480px; float:left; display:table;}
+.cal_nav { width:100%; background-color:#494949; height:20px; margin-top:20px; padding:10px 0; display:block;}
+.cal_nav_float { display:block; width:auto; padding:0 10px; }
+.cal_nav_left { float:left; }
+.cal_nav_right { float:right; }
+
+
+#yc_container
+{
+    width: 960px;
+    overflow: hidden;
+}
+
+/* SET TO THE TOTAL WIDTH OF ALL DIVS */
+#yc_slider-wrapper
+{
+    width: 1920px;
+}
+
+/* THESE ARE THE INDIVIDUAL SLIDE PROPERTIES */
+.yc_slide
+{
+    width:960px !important; max-width:width:960px; float:left; display:table; 
+    overflow: hidden;
+    float: left;
+}
+#megaMenu ul.megaMenu > li > a, #megaMenu ul.megaMenu > li > span.um-anchoremulator {
+  	padding: 12px !important;
+  	font-weight: normal !important;
+	font-size: 13px !important;
+}
+span.wpmega-link-title {
+	font-weight: normal !important;
+	font-size: 13px !important;
+}
+div.custom-sidebar ul li.recent-post-item {
+	padding-left: 0px;
+}
+
+.top-current-head{
+	float:none !important;	
+}
+.top-current-div{
+	height:auto;
+	overflow:hidden;
+	float:none !important;	
+}
+.top-current-head a {
+    color: #05B3C8 !important;
+    float: right !important;
+    font-size: 15px;
+    padding: 9px 20px 0 0 !important;
+}
+.top-current-content{
+	padding:10px 0 0 0;	
+}
+.top-current-content {
+    clear: both !important;
+    float: none !important;
+    width: 100% !important;
+}
+
+.calendar{
+	clear:both;
+	margin:20px 0 37px 0;	
+	border:solid 1px #ccc;
+}
+.calendar-row-head{
+	clear:both;	
+	height:auto;
+	overflow:hidden;
+	border-bottom:solid 1px #ccc;
+}
+.calendar-row-headsml{
+	clear:both;	
+	height:auto;
+	overflow:hidden;
+	border-bottom:solid 1px #ccc;	
+}
+.calendar-row-headsml .calendar-day-head{
+	width:9%;
+	color:#000;
+	padding:10px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;	
+	border-right:solid 1px #ccc;
+}
+.calendar-row-small .calendar-day{
+	width:9%;
+	padding:10px;
+	font-size:13px;
+	font-weight:bold;
+	float:left;	
+	border-right:solid 1px #ccc;
+}
+.calendar-row, .calendar-row-small {
+	clear:both;	
+	border-bottom:solid 1px #ccc;
+}
+.calendar-row-head .calendar-day-head{
+	width:12%;
+	color:#000;
+	padding:10px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;	
+	border-right:solid 1px #ccc;
+}
+.calendar-row .calendar-day{
+	width:12%;
+	padding:10px;
+	font-size:13px;
+	font-weight:bold;
+	float:left;	
+	border-right:solid 1px #ccc;
+}
+.calendar-row-head .calendar-day-head:last-child, .calendar-row .calendar-day:last-child{
+	border:0;	
+}
+div.day-number {
+    text-align: left !important;
+}
+.fc-weekday{
+	display:none;	
+}
+.calendar-panel{
+	min-height:inherit !important;
+}
+.contactSidebar{
+	width:240px;
+	float:left;	
+	padding:10px 0 20px 0;
+	border-top:solid 1px #333;
+}
+.contactSidebar h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:0 0 5px 0;
+	color:#000 !important;
+}
+.contactRightpan{
+	width:680px;
+	float:right;
+	padding:0 0 20px 20px;	
+}
+.panel_content .buy {
+  display: block;
+  float: right;
+  text-align: right;
+  width: 94px;
+}
+.panel_content p span a {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.logo-wrapperChild {
+    left: -130px;
+    position: static !important;
+    top: -130px;
+	display:none;
+}
+.logo-wrapperChild a{
+	width:90% !important;
+	margin:0 auto;	
+}
+.logo-wrapperChild img{
+	width:80% !important;
+	margin:0 auto !important;	
+}
+.responsiveLogo{
+	display:block;	
+}
+.top-navigation-wrapper .container, .home .container{
+	width:98% !important;		
+}
+.navigation-wrapper{
+	margin-top:0 !important;	
+}
+.header-wrapper{
+	width:98%;
+	margin:0 auto;
+	padding:0 !important;
+	margin-top:0;	
+}
+.home .gdl-page-item, .home .container .sixteen.columns{
+	width:100% !important;
+}
+div.slider-wrapper.fullwidth, div.navigation-wrapper{
+	width:100% !important;	
+}
+.slider-wrapper fullwidth{
+	width:100% !important;	
+}
+.nivoSlider img{
+	width:100%;
+	height:auto;	
+}
+.breadcrumb-wrapper{
+	width:98% !important;	
+}
+.home .container .eight.columns{
+	width:49% !important;	
+}
+ul.concerts-n-tickets{
+	padding:0 !important;	
+}
+ul.concerts-n-tickets li:last-child {
+    padding: 0 20px !important;
+}
+.sidebar-included .gdl-page-item {
+    width: 100% !important;
+}
+.container .sidebar-included .gdl-page-item .sixteen.columns {
+    width: 100% !important;
+}
+.container .five.columns {
+    width: 100% !important;
+}
+.left-sidebar-wrapper, .right-sidebar-wrapper{
+	height:auto !important;	
+}
+.both-sidebar-included .gdl-page-item {
+    width: 100% !important;
+}
+.container .both-sidebar-included .gdl-page-item .twelve.columns, .container .both-sidebar-included .gdl-page-item .sixteen.columns, .container .both-sidebar-included .gdl-page-item .two-thirds.column {
+    width: 100% !important;
+}
+.container div.both-sidebar-included .four.columns {
+    width: 100% !important;
+}
+.calendar-row-head{
+	display:none;	
+}
+.calendar-row .calendar-day{
+	width:96%;
+	padding:2%;
+	font-size:18px;
+	font-weight:bold;
+	float:none;	
+	border-bottom:solid 1px #ccc;
+}
+.fc-date{
+	float:left;	
+}
+.fc-weekday{
+	display:block;	
+	float:left;
+	padding:0 0 0 6px;
+	font-size:13px;
+}
+.highlight-grid {
+    left: 0 !important;
+    margin-left: 0 !important;
+}
+ul.month-list-view {
+    left: 2% !important;
+}
+.calender-blank{
+	display:none;	
+}
+.calendar-area-full {
+    margin: 0 auto;
+    width: 98% !important;
+}
+.calendar-panel {
+    float: none !important;
+    margin: 0  auto !important;
+    min-height: auto;
+    width: 100% !important;
+}
+.calendar-row-headsml .calendar-day-head{
+	display:none;	
+}
+.calendar-row-small .calendar-day{
+	float:none;
+	width:97%;
+	border-right:0;
+	border-bottom:solid 1px #ccc;	
+}
+div.gdl-page-float-left{
+	float:none !important;	
+}
+.contactSidebar{
+	width:96%;
+	float:none;	
+	margin:0 auto;
+}
+.contactRightpan{
+	width:96%;
+	float:none;
+	margin:0 auto;
+	padding:0 0 20px 0;	
+}
+}
+	
+	
+/*  #Mobile (Portrait)
+================================================== */
+
+/* mobile small 767px */
+
+@media all and (max-width : 767px) {
+.logo-wrapperChild {
+    left: -130px;
+    position: static !important;
+    top: -130px;
+	display:none;
+}
+.logo-wrapperChild a	{
+	width:90% !important;
+	margin:0 auto;	
+}
+.logo-wrapperChild img{
+	width:80% !important;
+	margin:0 auto !important;	
+}
+.responsiveLogo{
+	display:block;	
+}
+.top-navigation-wrapper .container, .home .container{
+	width:98% !important;		
+}
+.navigation-wrapper{
+	margin-top:0 !important;	
+}
+.header-wrapper{
+	width:98%;
+	margin:0 auto;
+	padding:0 !important;
+	margin-top:0;	
+}
+.home .gdl-page-item, .home .container .sixteen.columns{
+	width:100% !important;
+}
+div.slider-wrapper.fullwidth, div.navigation-wrapper{
+	width:100% !important;	
+}
+.slider-wrapper fullwidth{
+	width:100% !important;	
+}
+.nivoSlider img{
+	width:100%;
+	height:auto;	
+}
+.breadcrumb-wrapper{
+	width:98% !important;	
+}
+.home .container .eight.columns{
+	width:45% !important;	
+}
+ul.concerts-n-tickets{
+	padding:0 !important;	
+}
+ul.concerts-n-tickets li:last-child {
+    padding: 0 20px !important;
+}
+.calendar-row-head{
+	display:none;	
+}
+.calendar-row .calendar-day{
+	width:96%;
+	padding:2%;
+	font-size:18px;
+	font-weight:bold;
+	float:none;	
+	border-bottom:solid 1px #ccc;
+}
+.fc-date{
+	float:left;	
+}
+.fc-weekday{
+	display:block;	
+	float:left;
+	padding:0 0 0 6px;
+	font-size:13px;
+}
+.highlight-grid {
+    left: 0 !important;
+    margin-left: 0 !important;
+}
+ul.month-list-view {
+    left: 2% !important;
+}
+.top-current-head a, .top-current-head h3{
+	float:none !important;	
+}
+.calender-blank{
+	display:none;	
+}
+.calendar-area-full {
+    margin: 0 auto;
+    width: 98% !important;
+}
+.calendar-panel {
+    float: none !important;
+    margin: 0  auto !important;
+    min-height: auto;
+    width: 100% !important;
+}
+.calendar-row-headsml .calendar-day-head{
+	display:none;	
+}
+.calendar-row-small .calendar-day{
+	float:none;
+	width:97%;
+	border-right:0;
+	border-bottom:solid 1px #ccc;	
+}
+ul.concerts-n-tickets li {
+    float: none !important;
+    margin: 0 auto !important;
+	width:auto !important;
+}
+div.top-navigation-wrapper {
+	min-width:inherit !important;
+    width: 96% !important;
+}
+ul.concerts-n-tickets li {
+    float: none !important;
+    margin: 0 auto !important;
+	width: 280px !important;
+}
+.home .gdl-page-item, .home .container .sixteen.columns {
+    width: 98% !important;
+}
+.facebook-menu-link-wrapper, #menu-item-202 a{
+	position:static !important;
+}
+div.gdl-page-float-left{
+	float:none !important;	
+}
+.contactSidebar{
+	width:96%;
+	float:none;	
+	margin:0 auto;
+}
+.contactRightpan{
+	width:96%;
+	float:none;
+	margin:0 auto;
+	padding:0 0 20px 0;	
+}
+.both-sidebar-included, .gdl-page-item{
+	float:none !important;
+	width:98% !important;
+	margin:0 auto !important;	
+}
+div.both-sidebar-included {
+    padding: 0 !important;
+}
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media all and (max-width : 480px) {
+.logo-wrapperChild {
+    left: -130px;
+    position: static !important;
+    top: -130px;
+	display:none;
+}
+.logo-wrapperChild a{
+	width:90% !important;
+	margin:0 auto;	
+}
+.logo-wrapperChild img{
+	width:80% !important;
+	margin:0 auto !important;	
+}
+.responsiveLogo{
+	display:block;	
+}
+.top-navigation-wrapper .container, .home .container{
+	width:98% !important;		
+}
+.navigation-wrapper{
+	margin-top:0 !important;	
+}
+.header-wrapper{
+	width:98%;
+	margin:0 auto;
+	padding:0 !important;
+	margin-top:0;	
+}
+.home .gdl-page-item, .home .container .sixteen.columns{
+	width:100% !important;
+}
+div.slider-wrapper.fullwidth, div.navigation-wrapper{
+	width:100% !important;	
+}
+.slider-wrapper fullwidth{
+	width:100% !important;	
+}
+.nivoSlider img{
+	width:100%;
+	height:auto;	
+}
+.breadcrumb-wrapper{
+	width:98% !important;	
+}
+.home .container .eight.columns{
+	width:90% !important;	
+}
+.home .container .eight.columns img{
+	width:100% !important;
+	height:auto !important;	
+}
+.home .container .eight.columns:last-child {
+    margin-left: 0 !important;
+}
+.calendar-row-head{
+	display:none;	
+}
+.calendar-row .calendar-day{
+	width:96%;
+	padding:2%;
+	font-size:18px;
+	font-weight:bold;
+	float:none;	
+	border-bottom:solid 1px #ccc;
+}
+.fc-date{
+	float:left;	
+}
+.fc-weekday{
+	display:block;	
+	float:left;
+	padding:0 0 0 6px;
+	font-size:13px;
+}
+.highlight-grid {
+    left: 0 !important;
+    margin-left: 0 !important;
+}
+ul.month-list-view {
+    left: 2% !important;
+}
+.top-current-head a, .top-current-head h3{
+	float:none !important;	
+}
+.calender-blank{
+	display:none;	
+}
+.calendar-area-full {
+    margin: 0 auto;
+    width: 98% !important;
+}
+.calendar-panel {
+    float: none !important;
+    margin: 0  auto !important;
+    min-height: auto;
+    width: 100% !important;
+}
+.calendar-row-headsml .calendar-day-head{
+	display:none;	
+}
+.calendar-row-small .calendar-day{
+	float:none;
+	width:97%;
+	border-right:0;
+	border-bottom:solid 1px #ccc;	
+}
+ul.concerts-n-tickets li {
+    float: none !important;
+    margin: 0 auto !important;
+	width: 280px !important;
+}
+div.top-navigation-wrapper {
+	min-width:inherit !important;
+    width: 96% !important;
+}
+.home .gdl-page-item, .home .container .sixteen.columns {
+    width: 98% !important;
+}
+.facebook-menu-link-wrapper, #menu-item-202 a{
+	position:static !important;
+}
+.contactSidebar{
+	width:96%;
+	float:none;	
+	margin:0 auto;
+}
+.contactRightpan{
+	width:96%;
+	float:none;
+	margin:0 auto;
+	padding:0 0 20px 0;	
+}
+}
+
+/* mobile small 320 */
+@media all and (max-width : 320px) {
+.logo-wrapperChild {
+    left: -130px;
+    position: static !important;
+    top: -130px;
+	display:none;
+}
+.logo-wrapperChild a{
+	width:90% !important;
+	margin:0 auto;	
+}
+.logo-wrapperChild img{
+	width:80% !important;
+	margin:0 auto !important;	
+}
+.responsiveLogo{
+	display:block;	
+}
+.top-navigation-wrapper .container, .home .container{
+	width:98% !important;		
+}
+.navigation-wrapper{
+	margin-top:0 !important;	
+}
+.header-wrapper{
+	width:98%;
+	margin:0 auto;
+	padding:0 !important;
+	margin-top:0;	
+}
+.home .gdl-page-item, .home .container .sixteen.columns{
+	width:100% !important;
+}
+div.slider-wrapper.fullwidth, div.navigation-wrapper{
+	width:100% !important;	
+}
+.slider-wrapper fullwidth{
+	width:100% !important;	
+}
+.nivoSlider img{
+	width:100%;
+	height:auto;	
+}
+.breadcrumb-wrapper{
+	width:98% !important;	
+}
+.home .container .eight.columns:last-child {
+    margin-left: 0 !important;
+}
+.calendar-row-head{
+	display:none;	
+}
+.calendar-row .calendar-day{
+	width:96%;
+	padding:2%;
+	font-size:18px;
+	font-weight:bold;
+	float:none;	
+	border-bottom:solid 1px #ccc;
+}
+.fc-date{
+	float:left;	
+}
+.fc-weekday{
+	display:block;	
+	float:left;
+	padding:0 0 0 6px;
+	font-size:13px;
+}
+.highlight-grid {
+    left: 0 !important;
+    margin-left: 0 !important;
+}
+ul.month-list-view {
+    left: 2% !important;
+}
+.top-current-head a, .top-current-head h3{
+	float:none !important;	
+}
+.calender-blank{
+	display:none;	
+}
+.calendar-area-full {
+    margin: 0 auto;
+    width: 98% !important;
+}
+.calendar-panel {
+    float: none !important;
+    margin: 0  auto !important;
+    min-height: auto;
+    width: 100% !important;
+}
+.calendar-row-headsml .calendar-day-head{
+	display:none;	
+}
+.calendar-row-small .calendar-day{
+	float:none;
+	width:97%;
+	border-right:0;
+	border-bottom:solid 1px #ccc;	
+}
+ul.concerts-n-tickets li {
+    float: none !important;
+    margin: 0 auto !important;
+	width: 280px !important;
+}
+div.top-navigation-wrapper {
+	min-width:inherit !important;
+    width: 96% !important;
+}
+.home .gdl-page-item, .home .container .sixteen.columns {
+    width: 98% !important;
+}
+.facebook-menu-link-wrapper, #menu-item-202 a{
+	position:static !important;
+}
+div.gdl-page-float-left{
+	float:none !important;	
+}
+.contactSidebar{
+	width:96%;
+	float:none;	
+	margin:0 auto;
+}
+.contactRightpan{
+	width:96%;
+	float:none;
+	margin:0 auto;
+	padding:0 0 20px 0;	
+}
+}

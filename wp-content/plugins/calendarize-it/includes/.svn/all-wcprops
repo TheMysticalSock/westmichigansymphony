@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes
+END
+class.CalendarizeItTaxonomies.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.CalendarizeItTaxonomies.php
+END
+class.ui_themes_for_calendarize_it.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.ui_themes_for_calendarize_it.php
+END
+function.generate_calendarize_shortcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/function.generate_calendarize_shortcode.php
+END
+organizer_meta_fields.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/organizer_meta_fields.php
+END
+class.rhc_archive_layout_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_archive_layout_settings.php
+END
+class.post_meta_boxes.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.post_meta_boxes.php
+END
+class.post_meta_data_table.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.post_meta_data_table.php
+END
+class.shortcode_calendarize.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.shortcode_calendarize.php
+END
+class.rhc_calendar_metabox_rrule.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_calendar_metabox_rrule.php
+END
+class.rhc_venues.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_venues.php
+END
+class.EventsCalendar_Widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.EventsCalendar_Widget.php
+END
+class.rhc_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_calendar.php
+END
+class.rhc_post_info_shortcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_post_info_shortcode.php
+END
+class.rhc_tax_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_tax_settings.php
+END
+class.UpcomingEvents_Widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.UpcomingEvents_Widget.php
+END
+class.righthere_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.righthere_calendar.php
+END
+class.rhc_dashboard_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_dashboard_calendar.php
+END
+class.calendar_ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.calendar_ajax.php
+END
+class.rhc_organizers.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_organizers.php
+END
+class.post_type_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.post_type_calendar.php
+END
+class.dashboard_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.dashboard_calendar.php
+END
+class.rhc_calendar_metabox.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_calendar_metabox.php
+END
+class.rhc_event_template_metabox.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_event_template_metabox.php
+END
+class.debug_calendarize.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.debug_calendarize.php
+END
+class.plugin_righthere_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.plugin_righthere_calendar.php
+END
+class.rhc_layout_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_layout_settings.php
+END
+class.rhc_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_settings.php
+END
+meta_fields_default_labels.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/meta_fields_default_labels.php
+END
+class.rhc_general_calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_general_calendar.php
+END
+install.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/install.php
+END
+class.rhc_template_frontend_old.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_template_frontend_old.php
+END
+class.rhc_template_frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_template_frontend.php
+END
+sample-calendarize-it-add-taxonomy.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/sample-calendarize-it-add-taxonomy.php
+END
+class.rhc_archive_layout_frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_archive_layout_frontend.php
+END
+venue_meta_fields.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/venue_meta_fields.php
+END
+class.rhc_post_info_metabox.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_post_info_metabox.php
+END
+class.load_event_template.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.load_event_template.php
+END
+class.rhc_calendar_meta.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_calendar_meta.php
+END
+class.rhc_post_info_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_post_info_settings.php
+END
+class.rhc_icalendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_icalendar.php
+END
+functions.template.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/functions.template.php
+END
+class.rhc_sidebar_shortcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/class.rhc_sidebar_shortcode.php
+END
+debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/includes/debug.php
+END

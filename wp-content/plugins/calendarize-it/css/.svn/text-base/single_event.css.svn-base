@@ -1,0 +1,26 @@
+.singe-events.singular div.events .entry-header, 
+.singe-events.singular div.events .entry-content {
+	width:100%;
+	padding:2%;
+}
+
+.single-event-gmap-holder .sws-gmap3-frame {
+	width: 100%;
+	margin: 0 0 10px;
+	padding: 4px;
+	border: 1px solid #DDD;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+.single-event-gmap-holder {
+	width: 97%;
+}
+
+.single-event.event-page p {
+	width:98%;
+	margin:0 auto 1.625em;
+}
+
+}

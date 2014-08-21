@@ -1,0 +1,235 @@
+/*
+Theme Name: Modernize Child Theme
+Theme URI: -
+Description: Modernize WordPress Theme
+Template: modernize_v2-23
+Author: Goodlayers
+Author URI: http://goodlayers.com
+*/
+
+@import url("../modernize_v2-23/style.css");
+/* #Regular Ol' Custom Styles
+================================================== */
+
+
+html {
+	background: #9A9A9A !important;
+}
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", sans-serif !important;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E6E6E6), color-stop(1, #9A9A9A));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #E6E6E6 0%, #9A9A9A 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #E6E6E6 0%, #9A9A9A 100%);
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #181818;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", sans-serif !important;
+	font-weight: normal;
+	line-height: 1;
+}
+a {
+	color: #484848 !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+}
+#wpadminbar a {
+	color: #CCCCCC !important;
+	font-weight: normal !important;
+}
+a:active {
+	color: #05b3c8 !important;
+	text-decoration: none !important;
+}
+div.container {
+	background: none repeat scroll 0 0 #FFFDFD !important;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5) !important;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5) !important;
+}
+.top-navigation.container {
+	box-shadow: none !important;
+	background: transparent !important;
+}
+.copyright-wrapper {
+	box-shadow: none !important;
+}
+.logo-wrapper {
+	margin-bottom: 15px;
+	margin-left: 0;
+	margin-top: 0 !important;
+}
+div.navigation-wrapper {
+	background: none repeat scroll 0 0 #484848 !important;
+	border-bottom: none !important;
+	border-top: none !important;
+	box-shadow: none !important;
+}
+div.top-navigation-left {
+	float: right !important;
+	margin-left: 0px !important;
+}
+div.top-navigation-right {
+	float: left !important;
+	margin-right: 0px !important;
+}
+div.copyright-left {
+	margin-left: -10px !important;
+}
+.copyright-left ul {
+	list-style-type: none !important;
+}
+.copyright-left ul li {
+	border-right: 1px solid #9d9c9c;
+	padding: 0 10px;
+	float: left !important;
+}
+.copyright-left ul li:last-child {
+	border-right: none !important;
+}
+.copyright-left ul li:first-child {
+	padding-left: 0 !important;
+}
+.copyright-right img {
+	margin-left: 15px !important;
+	float: right !important;
+}
+.navigation-wrapper .sf-menu li a {
+	border-left: medium none !important;
+	border-right: medium none !important;
+	color: #FEFDFD !important;
+	padding: 8px 21.5px 8px 0 !important;
+	text-transform: uppercase;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.menu-top-navigation-menu-container {
+	float: right;
+	padding: 7px;
+}
+{
+}
+#main-superfish-wrapper ul li.current-menu-item, #main-superfish-wrapper ul li:hover {
+	background: #292929 !important;
+}
+#main-superfish-wrapper ul li.current-menu-item a, #main-superfish-wrapper ul li a:hover {
+	color: #05b3c8 !important;
+}
+div.search-wrapper form {
+	padding: 0 !important;
+}
+.search-wrapper {
+	border-left: none !important;
+}
+.search-wrapper form {
+	border-left: none !important;
+}
+ul.sf-menu li {
+	padding: 0 !important;
+}
+.sf-menu li:first-child {
+	padding: 0 !important;
+	border-right: 1px solid;
+}
+.sf-menu li:first-child a {
+	background-image: url('../../../wp-content/uploads/2012/12/home-icon.png');
+	background-repeat: no-repeat !important;
+	text-indent: -9999px !important;
+	padding: 17px 26px 0 !important;
+}
+div#main-superfish-wrapper {
+	margin-left: 0 !important;
+}
+/* #Base 960 Grid
+================================================== */
+
+.header-wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+	width: 960px;
+	margin-bottom: 0 !important;
+}
+.footer-wrapper {
+	margin: 25px auto !important;
+	position: relative !important;
+	width: 980px !important;
+}
+.breadcrumb-wrapper {
+	margin: 25px auto !important;
+	position: relative !important;
+	width: 980px !important;
+}
+.breadcrumb-wrapper a {
+	text-decoration: underline !important;
+}
+/* #Calendar Style Overrides
+================================================== */
+
+.fct-body .fc-image a img {
+	float: left !important;
+	margin: 0 5px 5px 0 !important;
+}
+.fc-start, .fc-end, .fc-hide {
+	margin-bottom: 5px;
+}
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.header-wrapper {
+	width: 768px !important;
+}
+.footer-wrapper {
+	width: 768px !important;
+}
+.breadcrumb-wrapper {
+	width: 768px !important;
+}
+}
+	
+	
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+.header-wrapper {
+	width: 300px !important;
+}
+.footer-wrapper {
+	width: 300px !important;
+}
+.breadcrumb-wrapper {
+	width: 300px !important;
+}
+}
+
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+.header-wrapper {
+	width: 420px !important;
+}
+.footer-wrapper {
+	width: 420px !important;
+}
+.breadcrumb-wrapper {
+	width: 420px !important;
+}
+}

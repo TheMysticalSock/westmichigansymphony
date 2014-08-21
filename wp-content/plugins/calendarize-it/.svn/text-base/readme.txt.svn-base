@@ -1,0 +1,219 @@
+=== Calendarize It! for WordPress ===
+Author: Alberto Lau (RightHere LLC)
+Author URL: http://plugins.righthere.com/calendarize-it/
+Tags: WordPress, Calendar, Event, Recurring Events, Arbitrary Recurring Events, Venues, jQuery
+Requires at least: 3.0
+Tested up to: 3.4.2
+Stable tag: 1.2.3 rev30654
+
+== CHANGELOG ==
+Version 1.2.3 rev30654 - November 27, 2012
+* Bug Fixed: Date not showing on the admin in Firefox (PC)
+* Bug Fixed: Prevent php warning
+* New Feature: Allow specifying alternate event source
+* New Feature: Added rdate to iCalendar
+* Update: Implement the prev and next label settings when generating the cal shortcode
+* Update: Enable the field for changing the prev and next button text
+
+Version 1.2.2 rev29705 - November 2, 2012
+* New Feature: Allow setting a content wrap on Pages used as templates
+* Update: Simplify templates, replace php functions with shortcodes, so that templates can optionally be fully setup at the template page
+* New Feature: Added option to enable thumbnail support in case the theme don't
+* New Feature: Added option to specify the page id to which the widget links to by default
+* Update: Remove spaces from organizer template as they get converted to <p> and </br>
+* Update: Separated the event list js code for easier maintenance
+* Bug Fixed: If the address is empty do not display the address label in the tooltip
+* Bug Fixed: If website field is empty, don't show the field
+* Bug Fixed: Remove extra space when fields are empty
+* Bug Fixed: Do not show map if all required fields for map are empty
+* Bug Fixed: One event list, when address venue or organizer is empty, do not show the label
+* Bug Fixed: Do not show description on event list if it is empty (double border lines)
+* Bug Fixed: Multiple day events, incorrectly displayed on IE9 and old Firefox. Technical: IE is not capable of using date string yyyy-mm-dd on new Date(date string) odd.
+* Bug Fixed: Added an option to ignore a WordPress recommendation, so that event does not return a 404 on sites with plugins or themes that also ignores this recommendation
+* Bug Fixed: Load options before init to catch the new ignore standard troubleshooting setting
+
+Version 1.2.1 rev29610 - October 27, 2012
+* Bug Fixed: Google calendar treats dtend exclusively 
+* Bug Fixed: Modify in_array function, on certain conditions events do not show on any browser but Firefox.
+* Bug Fixed: Compatibility fix, added id to a div with postbox class, as it seams that cardamom theme js needs the id or else it crashes.
+* Bug Fixed: First date should not contain date into in the URL
+* Bug Fixed: Non recurring events that have repeat dates, do not repeat if the start date and end interval is not in the current view date range.
+* New Feature: Option to disable link in calendar pop-up
+* New Feature: Added option to turn on or off the debug menu
+
+
+Version 1.2.0 rev29423 - October 19, 2012
+* New Feature: Added support for Exceptions when creating recurring events
+* New Feature: Added support for arbitrary recurring events
+* New Feature: Added option to specify calendar URL to link the upcoming events widget
+* Bug Fixed: Adjusted margin on "Calendar" and "Today" button
+* Bug Fixed: Show correct date of repeat instance info fields on event page when clicking on a repeat event. 
+* Bug Fixed: When choosing to filter by several taxonomies (it was only filtering by 1 taxonomy)
+* Updated: Layout fixed for WordPress 3.5
+
+
+Version 1.1.4 rev29164 - September 23, 2012
+* New Feature: Provided an option to display all Calendarize It! Post Types in the main calendar
+* Bug Fixed: Add Organizer image and HTML content
+
+Version 1.1.3 rev29014 - August 31, 2012
+* Bug Fixed: Make sure featured image is used for events
+* Bug Fixed: $.curCSS is depreciated in jQuery 1.8, updated full calendar.js
+* Improvement: Optional Tooltip title link disable or enable
+* Bug Fixed: All Day events where showing time in start and end dates in popup
+* Bug Fixed: Option to enable/disable ical button on the calendar widget
+
+Version 1.1.2 rev28899 - August 18, 2012
+* New Feature: Render short codes in before/after template HTML; added shortcode rhc_sidebar for adding sidebars to the template
+* New Feature: Option to make taxonomies into fields, hyperlinks to the taxonomy page
+* Update: Allow the parameter to be 'false' so that the specified template does not render any sidebar
+* Update: Missing text domain on the words: Start, End and Address in the pop-up
+* Update: Added optional rewrite procedures for sites with problems with permalinks, updated Options Panel, pushed plugin init to after_theme_setup for theme integration support. Added default organizers template, include code (but not enabled) for handling calendar inside a tab
+* Bug Fixed: Multiple day events were only highlighted the first day in the calendar widget
+* Bug Fixed: When the end date time is less than start time it was incorrectly calculating the number of days
+* Bug Fixed: Upcoming Events Widget, when event is all day, time should not display
+* Bug Fixed: On most themes, the image pushes the content on the event list
+* Bug Fixed: Prevent CSS3 transition from modifying the event rendering behavior
+
+Version 1.1.1 rev28549 - August 1, 2012
+* Bug Fixed: Frontend breaking when showing Calendar and Upcoming Events Widget at the same time
+* Update: jQuery updated to version 1.8.22
+* New Feature: Option to disable built-in Taxonomies from Options
+
+Version 1.1.0 rev28238 - July 27, 2012
+* New Feature: Provide option to disable loading Calendarize It! templates
+* New Feature: Hide dialog when pressing escape key
+* New Feature: Support for iCal (OSX Calendar) and Google Calendar feed
+* New Feature: Allow to set iCal parameters
+* New Feature: Added better support for setting time and data format 
+* New Feature: Added month and day names to the Options Panel
+* New Feature: Enable default options in Calendar in widget
+* New Feature: Implement day and month names in upcoming events widget from Shortcode options
+* New Feature: Included Spanish .mo files
+* Update: Modified widget for current rule event, changed date format to full calendar format to support only one date format
+* Update: Added new language strings in .po and .mo files
+* Bug Fixed: Provide a custom URL for the calendar link (implemented non-default event and calendar display slugs)
+* Bug Fixed: Recurring events that repeat many times where being excluded from the upcoming events widget
+* Bug Fixed: Recurring events only showing in Chrome. rule UNTIL, if time not set, should include that days event in recurring events
+* Bug Fixed: Missing end date time, added formatting to info box inside the admin so it looks like the frontend
+* Bug Fixed: Upcoming events not showing on Internet Explorer, Firefox and Safari
+* Bug Fixed: Spacing on Upcoming Events widget
+* Bug Fixed: Default time format with 2 digit minutes
+* Bug Fixed: When any of the taxonomy slugs is left empty in the options panel, in WordPress 3.4.1 every pages becomes not found
+* Bug Fixed: Missing textdomain for "Every year", "Custom Interval", "No access"
+
+
+Version 1.0.2 rev27083 - July 7, 2012
+* Bug Fixed: HTML entries in event title
+* Bug Fixed: Set first day of the week was not working
+* Bug Fixed: Typographical error "Wednsday" changed to "Wednesday" in drop down for choosing start day of the week
+* New Feature: Added backend options to customizing month, week, day and event list time formats. As well as title, column, event time and agenda axis
+* New Feature: Added sort by date in the event admin
+* New Feature: Allow hookup of external jQuery UI themes (this allows you to easily add your own jQuery UI themes by using the http://jqueryui.com/themeroller/. It is important that you add a CSS Scope (.rhcalendar) when exporting the theme in order to limit the usage of the CSS to Calendarize it)
+* New Feature: Allow hookup of external templates (this allow you to update the plugin without overwriting any customizations you have made to the templates)
+* New Feature: Provide configuration options for agenda view
+* Update: added latest strings to localization files
+
+Version 1.0.1 rev26587 - June 30, 2012
+* Bug Fixed: Incorrect localization function giving warning
+* Bug Fixed: Start and End date subtitle where not being localized
+* Update: Added filters to event list in wp-admin
+* Update: Added load text domain for Calendarize
+* Update: Added base files for translation (/languages)
+* Update: Added argument to control the start and end formats in the event list
+
+Version 1.0.0 rev26066 - June 21, 2012
+* First release.
+
+
+== DESCRIPTION ==
+Calendarize It - a powerful Calendar and Event plugin for WordPress.
+
+The main features are: 
+
+- Easy Point and Click interface to add new events
+- Preview when entering event in wp-admin (single event)
+- Support for Recurring Events
+- Show Individual Calendars per user in WordPress- Advanced filtering (Custom Taxonomies)- Sidebar Widget for Upcoming Events
+- Sidebar Widget for Mini Calendar - Event List per day, per week, monthly
+- Support for Custom Fields for Events- Creating and manage Venues, Organizers and Calendars- Support for Shortcodes - Support for Custom Post Types
+- Detailed Event Page- Detailed Venue Page
+- Google Map integration for Events and Venues
+- Support for internationalization
+
+If you want to enable other user roles besides the Administrator to create and manage Events you can add the following capabilities. You will need a Role and Capability Manager  like our White Label Branding for WordPress. Or any other plugin that lets you update the capabilities of a user role.
+
+== INSTALLATION ==
+
+1. Upload the 'calendarize-it' folder to the '/wp-content/plugins/' directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. In the menu you will find Calendarize It. 
+
+== FREQUENTLY ASKED QUESTIONS ==
+
+If you have any questions or trouble using this plugin you are welcome to contact us through our profile on Codecanyon (http://codecanyon.net/user/RightHere)
+
+Or visit our HelpDesk at http://support.righthere.com
+
+
+== HOW CAN I PROVIDE ACCESS TO CALENDARIZE IT TO OTHER USERS THAN THE ADMINISTRATOR? ==
+
+Use the following capabilities:
+
+- manage_venue
+- manage_calendar
+- manage_organizer
+
+- edit_event
+- read_event
+- read_private_events
+- delete_event
+- delete_others_events
+- edit_events
+- edit_others_events
+- edit_published_events
+- publish_events
+- read_private_events
+
+== HOW DO I INSERT CALENDARIZE IT IN A PAGE OR POST? ==
+
+You can insert Calendars in any Page, Post or Custom Post Type you want.
+Use the following Shortcodes to insert Calendars:
+
+[calendarizeit]
+This Shortcode will insert the Calendar and will display all events created by all users.
+
+[calendarizeit author_name='username']
+This Shortcode will insert the Calendar and only display events created by the 'username'. Replace 'username' with any user from WordPress
+
+[calendarizeit author='ID,ID']
+This Shortcode will insert the Calendar and display events created by multiple authors. Replace ID with the ID number of the author. You can find the ID number of an author by holding the cursor over "edit" in the Users List, and then view the bottom line. It will show something like /user-edit.php?user_id=2. In this case enter the number "2" as the ID.
+
+[calendarizeit post_type="post"]
+This Shortcode will insert the Calendar and display the post type that you enter. You will need to enable the Custom Post Type in the options panel.
+
+[calendarizeit taxonomy='calendar' terms='concerts']
+This Shortcode will insert the Calendar and based on the Custom Taxonomy that you have defined you can display e.g. a Concert Calendar. 
+
+[calendarizeit venue='place']
+This Shortcode will insert the Calendar and based on the 'place' (venue) it will display all events assigned to the specific venue.
+
+[calendarizeit organizer='name']
+This Shortcode will insert the Calendar and based on the 'name' (organizer) it will display all events assigned to the specific organizer.
+
+[calendarizeit calendar='name']
+This Shortcode will insert the Calendar and based on the 'name' (calendar) it will display all events assigned to the specific calendar.
+
+
+== SOURCES - CREDITS & LICENSES ==
+
+We have used the following open source projects, graphics, fonts, API's or other files as listed. Thanks to the author for the creative work they made.
+
+1) FullCalendar jQuery plugin
+   http://arshaw.com/fullcalendar/
+
+DISCLAIMER: FullCalendar is great for displaying events, but it isn't a complete solution for event content-management. Beyond dragging an event to a different time/day, you cannot change an event's name or other associated data. It is up to you to add this functionality through FullCalendar's event hooks.
+
+2) jQuery UI ThemeRoller
+   http://jqueryui.com/themeroller/
+

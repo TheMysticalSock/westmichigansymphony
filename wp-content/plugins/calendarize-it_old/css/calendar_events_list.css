@@ -1,0 +1,138 @@
+
+.fc-events-holder {
+	width:100%;
+}
+
+.fc-event-list-holder .fc-event-list-featured-image {
+	float: right;
+	margin: 0px 0px 0px 10px;
+	width:23%;
+}
+
+.fc-event-list-holder .fc-event-list-featured-image img {
+	border:1px solid #ccc;
+	padding:4px;
+	width:100%;
+}
+
+.fc-event-list-holder .fc-event-list-content {
+	display:inline;
+	float:left;
+	width:75%;
+}
+
+.fc-event-list-holder .fc-event-list-date {
+	margin: 10px 0 0px;
+}
+
+.fc-event-list-content .fc-event-list-title {
+	font-size:1em;
+}
+
+.fc-event-list-content .fc-event-list-subtitle {
+	font-size:0.8em;
+}
+
+.fc-event-list-content label {
+	font-weight:bold;
+	margin-right:5px;
+	font-size:14px;
+}
+
+.fc-event-list-content label:after {
+	content:":";
+}
+
+.fc-event-list-content h5 {
+display: inline-block;
+width: 49%;
+}
+
+.fc-event-list-content h5 + h5 + h5 + h5 + h5 {
+display: block;
+width: 98%;
+}
+
+
+.fc-event-list-clear {
+	clear:both;
+}
+
+.fc-event-list-content h4 .fc-event-list-title {
+	font-weight:bold;
+}
+
+.fc-event-list-content .fc-event-list-description {
+	font-size:14px;
+	margin-bottom: 10px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding:10px 0;
+}
+
+.fc-events-holder .fc-event-list-holder .fc-event-list-item {
+	
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+.fc-events-holder .fc-event-list-holder div.fc-event-list-item:first-child {
+	border-top:0px;
+}
+
+.fc-events-holder .fc-event-list-holder h3.fc-event-list-date-header {
+	text-transform:none;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 2.6em;
+	font-weight:bold;
+	
+}
+
+@media only screen and (max-width: 540px) {
+.fc-event-list-holder .fc-event-list-featured-image {
+	float:none;
+	margin: 0px;
+	width:100%;
+}
+.fc-event-list-holder .fc-event-list-featured-image img {
+	margin: 0px;
+}
+	
+.fc-event-list-holder .fc-event-list-content {
+	float:none;
+	display:block;
+	width:100%;
+}
+
+.fc-event-list-content h5 {
+	display:block;
+	width:100%;
+}
+
+.fc-event-list-content h5 label,
+.fc-event-list-content h5 span {
+	font-size: 13px !important;;
+	display:inline-block;
+}
+
+.fc-event-list-content h5 label {
+	width:22%;
+}
+.fc-event-list-content h5 span {
+	width:75%;
+}
+
+
+}
+
+/* empty event list taxonomy field*/
+.fc-event-list-content h5 + h5 + h5 + h5 + h5.rhc_event-empty-taxonomy,
+.fc-event-list-content h5.rhc_event-empty-taxonomy {
+	display:none;
+}
+
+/* empty event list description (excerpt) */
+.fc-event-list-content .fc-event-list-description.rhc-empty-description {
+	display:none;
+}

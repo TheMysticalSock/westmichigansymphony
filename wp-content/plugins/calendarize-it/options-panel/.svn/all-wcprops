@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel
+END
+class.plugin_registration.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.plugin_registration.php
+END
+load.pop.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/load.pop.php
+END
+class.pop_import_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.pop_import_export.php
+END
+class.pop_uploader.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.pop_uploader.php
+END
+class.pop_bundles.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.pop_bundles.php
+END
+class.al_importer.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.al_importer.php
+END
+class.pop_input.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.pop_input.php
+END
+class.pop_importer.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.pop_importer.php
+END
+class.PluginOptionsPanelModule.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.PluginOptionsPanelModule.php
+END
+class.righthere_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.righthere_service.php
+END
+class.pop_downloadable_content.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/options-panel/class.pop_downloadable_content.php
+END

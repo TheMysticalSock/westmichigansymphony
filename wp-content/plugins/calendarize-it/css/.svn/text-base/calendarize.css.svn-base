@@ -1,0 +1,245 @@
+.fc-dialog-holder {
+	display:none;
+	z-index:-9999;
+	position:absolute;
+}
+
+.fc-dialog {
+	display:block;
+	min-height:300px;
+	width:330px;
+	z-index:999999;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:0;
+}
+
+.rhcalendar  {
+	margin-top: 20px;
+	position:relative;
+}
+
+.fc-header-center .fc-header-title {
+	display: block;3
+	position: absolute;
+	top: -41px;
+	margin:0 auto;
+	left:0;
+	width:100%;
+}
+
+/* admin post extra info */
+.post_extrainfo {
+	width:100%;
+	margin:0;
+	padding:0;
+	display:block;
+	position:relative;
+}
+.post_extrainfo .rhc-extra-info-cell {
+	display:block;
+	float:left;
+	position:relative;
+	width:45%;
+	margin-right:3%;
+	min-height:30px;
+	background-color:#e6e6e6;
+}
+
+.post_extrainfo.post_extrainfo_cols-1 .rhc-extra-info-cell{
+	width:100%;
+	margin-right:0;
+}
+
+.post_extrainfo.post_extrainfo_cols-2 .rhc-extra-info-cell{
+	width:45%;
+	margin-right:3%;
+}
+
+.post_extrainfo.post_extrainfo_cols-3 .rhc-extra-info-cell{
+	width:29%;
+	margin-right:3%;
+}
+
+.post_extrainfo .widget .widget-top {
+	height:auto;
+	min-height:30px;
+}
+
+.post_extrainfo .widget .widget-title h4,
+.post_extrainfo .widget-title .in-widget-title
+ {
+	white-space:normal;
+}
+
+.post_extrainfo .widget-title .in-widget-title {
+}
+.post_extrainfo .rhc-extra-info-label{
+
+}
+.post_extrainfo .rhc-extra-info-value{
+	
+}
+ /* admin extra info rhc_post_info_metabox.php */
+ .post_extrainfo_control {
+	display:block;
+	position:relative;
+}
+.post_extrainfo_cell {
+	display:block;
+	float:left;
+	height:25px;
+	padding:5px 5px 5px 15px;
+}
+
+.post_extrainfo_cell label {
+	
+}
+
+.pt-option .rhc-extra-info-value {
+	vertical-align:middle;
+}
+
+.post_extrainfo-column-control {
+width:100%;
+display:block;
+clear:both;
+}
+.post_extrainfo_separator {
+clear:both;
+}
+
+#extrainfo-loading {
+	margin:4px 0 0 10px;
+	visibility:visible;
+	float:left;
+	width:20px;
+}
+
+/* frontend extra info */
+.fe-extrainfo-holder {
+margin:0;
+padding:0;
+}
+
+.fe-extrainfo-holder tr td.fe-extrainfo-value {
+	padding-right:20px;
+}
+
+.fe-extrainfo-holder td.fe-extrainfo-label {
+	font-weight:bold;
+}
+/* end frontend extra info */
+
+
+/* post_extrainfo options-panel */
+.pt-option #extrainfo-loading {
+	
+}
+
+.pt-option .post_extrainfo_cell {
+	float:none;
+	width:90%;
+}
+
+.pt-option #post_extrainfo_add {
+	float:left;
+}
+
+/* archive-events-calendar */
+.archive-calendar-container {
+padding:2%;
+}
+
+@media only screen and (max-width: 540px) {
+table.fc-header,
+table.fc-header tr,
+table.fc-header td,
+table.fc-header thead,
+table.fc-header tbody,
+table.fc-header th,
+table.fc-header td.fc-header-left,
+table.fc-header td.fc-header-center,
+table.fc-header td.fc-header-right {
+	display:block;
+}
+
+table.fc-header td.fc-header-left {
+	width: 216px;
+	margin: 10px auto 0 2%;
+	position:relative;
+	top:45px;
+}
+
+table.fc-header td.fc-header-center {
+	position:relative;
+	margin: 0px auto 20px;
+	top:-21px;
+
+}
+
+table.fc-header td.fc-header-right {
+	position:relative;
+	margin: 4px auto 10px 17%;
+	width: 180px;
+}
+
+
+.singular .single-event .fe-extrainfo-holder table td {
+display: block;
+float: left;
+width: 45%;
+}
+
+.singular .entry-title {
+	line-height: 32px;
+}
+}
+
+/* venues.php venue shortcode css */
+.sws-gmap3-marker {
+display:none;
+}
+.sws-gmap3-cont img{
+max-width:none !important;
+max-height:none !important;
+}
+/* end venues.php */
+
+/* Single Event page */
+.singular .single-event .entry-header, 
+.singular .single-event .entry-content {
+	width:94%;
+}
+
+.singular .single-event .fe-extrainfo-holder table {
+	border-bottom:0px solid #ddd;
+}
+
+.singular .single-event .fe-extrainfo-holder table td {
+	border-top:0px;
+	padding: 2px 0;
+}
+
+/* icalendar dialog */
+#rhc-icalendar-modal {
+	font-size:.8em;
+}
+
+#rhc-icalendar-modal textarea {
+	height:75px;
+}
+
+.rhcalendar table.fc-border-separate {
+	margin-bottom:4px;
+}
+
+/* bug fix, reset css3 transition */
+a.fc-event {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+/* end bug fix */

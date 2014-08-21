@@ -1,0 +1,657 @@
+td{padding:9px 0 !important;}
+
+/* calendar */
+table.calendar		
+{ 
+	/*border-left:1px solid #999;*/ 
+	border-color:#fff; 
+	margin:46px 0 0 0;
+}
+tr.calendar-row	
+{  
+	
+}
+td.calendar-day	
+{ 
+	height:90px; 
+	font-size:11px; 
+	position:relative; 
+} 
+/* html div.calendar-day { height:80px; }*/
+td.calendar-day-np	
+{
+	min-height:80px; 
+}
+* html div.calendar-day-np 
+{ 
+	height:80px; 
+}
+td.calendar-day-head 
+{ 
+	/*background:#ccc;*/ 
+	font-weight:bold; 
+	text-align:center; 
+	width:120px; 
+	padding:5px; 
+	border-bottom:1px solid #fff; 
+	border-top:1px solid #fff; 
+	border-right:1px solid #fff; 
+}
+div.day-number		
+{ 
+	padding:5px 0; 
+	color:#666; 
+	font-weight:bold; 
+	margin:-5px 0px 0 0;
+	float:left; 
+	text-align:right; 
+}
+/* shared */
+td.calendar-day, td.calendar-day-np 
+{ 
+	border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5 !important;
+    border-top: 1px solid #E5E5E5;
+    padding: 5px;
+    width: 120px; 
+}
+.rounded_bull
+{
+	width:8px;
+	height:8px;
+	border-radius:30px;
+	display:inline-block;
+	float:left;
+	margin:6px 0px 0 0;
+}
+.calendar-day p {
+    float: left;
+    width:89px; display:inline-block; padding:0 0 0 14px; margin:0; line-height:12px;
+}
+.taxonomy_form {
+    background: none repeat scroll 0 0 #494949;
+    padding: 10px 8px 10px 14px;
+}
+select.tax1_select , select.tax2_select
+{
+    float: left;
+    width: 125px;
+    margin:0 15px 0 0;
+}
+.taxonomy_submit {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    color: #31C8D3 !important;
+    text-transform:capitalize !important;
+}
+ul.month-list-view
+{
+	margin:0;
+}
+ul.month-list-view li
+{
+	list-style:none;
+	position:relative;
+}
+ul.month-list-view li ul
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    left:-30px;
+	padding:5px 0 0 0;
+	top:16px;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    box-shadow:2px 2px 2px #a4a4a4;
+}
+ul.month-list-view li ul li
+{
+	list-style:none;
+}
+ul.month-list-view li ul li
+{ 
+	padding:5px 10px;
+}
+ul.month-list-view li:hover ul
+{
+	display:block;
+}
+.month-list-view li a 
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url("v.png") no-repeat center right;
+    padding-right: 25px;
+}
+.month-list-view li a span
+{
+    font-size: 15px;
+    color:#6e6e6e;
+}
+ul.month-list-view li ul li a
+{
+	font-size: 13px;
+    text-transform: capitalize;
+    font-weight:normal !important;
+    background-image: none;
+}
+ul.month-list-view li ul li a:hover
+{
+	color:#05B3C8 !important;
+}
+
+.list-grid-style {
+    color: #FFFFFF;
+    float: right;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    top: 4px;
+}
+.list-grid-style > li 
+{
+    display: inline;
+    list-style: none outside none;
+    float: left; margin:0 2px;
+}
+
+.list-grid-style li span { display: inline; line-height: 30px;}
+.list-grid-style li a 
+{
+    color: #FFFFFF !important;
+}
+/*.clear
+{ 
+	clear: both;
+}*/
+.highlight
+{ 
+	position: absolute; 
+	width: 263px; 
+	display: none; 
+	z-index:500; 
+	right:83px; 
+	margin-left:-210px; 
+	bottom:100%; 
+}
+.high_panel 
+{ 
+	background:#e9e7e7; 
+	padding:8px; 
+	/* border-bottom:5px solid #F09; */
+	border: 1px solid #AAAAAA;
+}
+.high_panel img
+{ 
+	margin:3px 0;
+	height: 185px;
+}
+.bn a
+{ 
+	background:url(bn1.png) repeat-x; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	text-align:center; 
+	color:#fff !important; 
+	text-decoration:none; 
+	padding:8px 25px; 
+	/*text-shadow: 1px 1px 2px #333333; */
+	font-weight:bold; 
+}
+.bn.flt-left .bn a {
+	line-height: 200% !important;
+    padding: 8px 21px !important;
+}
+.bn.flt-right a {
+	line-height: 200% !important;
+    padding: 8px 17px !important;
+}
+.bn a:hover
+{ 
+	background:url('bn1-press.png') repeat-x;
+	box-shadow: 0 0 2px 1px rgba(0,0,0,0.2) inset;
+}
+a.highlightLink {
+	display: inline-block;
+float: left;
+line-height: 12px;
+margin: 0;
+padding: 0 0 0 14px;
+width: 104px;
+	
+}
+.highlight-btn-wrap {
+	clear:both;
+	overflow: hidden;
+	width: 100%;
+	margin:10px 0;
+}
+p.pspacer {
+	height:10px;
+}
+.flt-left {
+	float: left;
+	width: 45%;
+}
+.flt-right {
+	float: right;
+	width: 45%;
+}
+.high_panel h2
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:16px; 
+	color:#666; 
+	margin:0; 
+	padding:0 0 3px;
+}
+.high_panel p
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#666; 
+	margin:0; 
+	padding:0 0 2px; 
+	clear: both; 
+}
+.bn
+{ 
+	height:25px;
+}
+.concerts-n-tickets .bn
+{ 
+	margin-top:15px;
+}
+.arrow-down 
+{
+	background-color:none;
+	margin:0 auto;
+	width: 1px;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	/* border-top: 20px solid #F09; */
+}
+.showevent
+{
+	min-height:30px;float: left; margin-left: 9px;
+}
+
+.showevent:hover .highlight
+{
+	display:block;
+}
+
+.showevent-full
+{
+	float:left; padding:0 3px;
+}
+
+div.gdl-page-content
+{ 
+	clear:both;
+}
+.calendar-panel
+{ 
+	width: 440px; 
+	margin:0 8px; 
+	float: left; 
+	min-height: 550px; 
+}
+table.list-cal
+{ 
+	margin-top:0px !important;
+}
+table.list-cal tr td
+{ 
+	height:35px;
+}
+
+.high_panel p { width:220px;}
+
+.next {
+    position:absolute;
+    right:-34px;
+    top: 684px; 
+    width:32px; 
+    height:46px; background:url(images/next.png) no-repeat right top; text-indent:-9999px;display:block;
+}
+.next1 {
+    position:absolute;
+    right:-14px;
+    top: 684px; 
+    width:32px; 
+    height:46px; background:url(images/next.png) no-repeat right top; text-indent:-9999px;display:block;
+}
+.prev {
+    
+    left: -14px;
+    position: absolute;
+    top: 684px;
+    width:32px; height:46px; background:url(images/prev.png) no-repeat left top;text-indent:-9999px; display:block;
+}
+
+.Controlbutton {
+    height: 100%;
+    position: relative;
+    width: 100%;
+   
+}
+.calendar-showup {
+    padding-top: 15px;
+}
+.calendar-area-full {
+    margin: 0 auto;
+    width: 912px;
+}
+
+.grid-view {
+    display: table-cell;
+    height: 30px;
+   
+    vertical-align: middle;
+    width: 13px;
+}
+
+.list-view {
+    display: table-cell;
+    height: 30px;
+   
+    text-align: center;
+    vertical-align: middle;
+    width: 11px;
+}
+
+.highlight-grid {
+    left: 3%;
+    margin-left: -132px;
+}
+.clear
+{ 
+	clear:both;
+}
+.event_panel
+{
+	width:97%; 
+	padding:20px; 
+	margin:0 auto; 
+}
+ul.event
+{ 
+	margin:0; 
+	padding:0;
+}
+ul.event li
+{ 
+	list-style:none; 
+	display:block; 
+	margin-bottom:15px;
+}
+.concertdate {
+  background: none repeat scroll 0 0 #494949;
+  float: left;
+  height: 138px;
+  padding: 5px 5px 5px 10px;
+  width: 9%;
+}
+.concertdate p
+{  
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:14px; 
+	color:#FFF; 
+	margin:0; 
+	padding:2px; 
+}
+p.number
+{ 
+	font-size:45px; 
+	padding:15px 0 8px; 
+	font-weight:bold;
+}
+.color {
+  float: left;
+  height: 148px;
+  width: 6px;
+}
+.pic_panel {
+  float: left;
+  width: 15%;
+}
+.pic_panel img
+{
+	width:130px;
+	height:148px;
+}
+.panel_content {
+  float: left;
+  width: 73%;
+}
+.panel_content h2 {
+  color: #333333;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 22px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.panel_content .buy {
+  margin-right: 8px;
+  margin-top: -15px;
+  position: absolute;
+  right: 0;
+}
+.panel_content h2 span a:hover
+{ 
+	color:#000;
+}
+.cont_mid p
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#333; 
+	font-weight:bold; 
+	padding:0; 
+	margin:0;
+}
+.cont_mid 
+{ 
+	margin-top:10px;
+}
+.panel_content p
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#333;
+}
+.panel_content p span a
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#00a6bd !important; 
+	text-transform:uppercase; 
+	text-decoration:none;
+}
+.panel_content p span a:hover
+{ 
+	color:#06F;
+}
+
+.imag-area { float: left; width:150px; margin-right:30px;}
+.imag-area img { border: 5px solid #FFFFFF; box-shadow: 0 0 3px #CCCCCC;}
+.display-area { float: left; width:746px;}
+.display-area p { margin:0;}
+
+.content-box-area { padding:17px; float: left;}
+
+.content-box-area h3 { font-size: 22px;}
+.text-tyle { font-size: 13px; font-weight: normal; font-family:Arial, Helvetica, sans-serif; color: #333; margin: 5px 0; }
+
+.text-tyle span { color:#00A6BD; }
+
+.container-box { margin:0 auto; padding:0; width:920px;}
+
+.container-box .heading-box a 
+ { 
+ 	height:30px; 
+ 	font:normal 14px/20px Arial, Helvetica, sans-serif; 
+ 	color:#05b3c8 !important;
+ 	text-decoration: none;
+ }
+ .container-box .heading-box a:hover
+ {
+ 	text-decoration: underline;
+ }
+.heading-box {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.container-box .right-area {
+  float: right;
+  padding-bottom: 20px;
+  width: 33%;
+}
+.container-box .left-area {
+  float: left;
+  margin: 0;
+  padding-bottom: 10px;
+  width: 66%;
+}
+.container-box .left-area .blue-heading {
+  color: #FFFFFF;
+  font: 18px/24px Arial,Helvetica,sans-serif;
+  height: 24px;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container-box .info-box { margin:6px 0 0 0;}
+
+.container-box .left-area .small-box { background:#e1e1e1; padding:8px;  width: 46.9%; float:left; margin-right:5px; margin-bottom:5px;}
+
+.container-box .left-area .small-box:nth-child(2n) { margin-right:0px;}
+
+
+
+.container-box .left-area .blk-hd 
+{ 
+	background:#484848;
+}
+/* .buy-ticket 
+{ 
+	background:#06a0be url(bn1.png) repeat-x top; 
+	height:24px; 
+	width:90px; 
+	text-align:center; 
+	font:normal 12px/22px Arial, Helvetica, sans-serif;
+	color:#FFFFFF !important;
+	margin:30px 0 0 0; 
+	padding:0; 
+	border:none; 
+	display:block; 
+	cursor: pointer; 
+} */
+
+.divder { margin-bottom:24px;}
+.clr { clear:both; line-height:0; font-size:0;}
+p { font:normal 12px/18px Arial, Helvetica, sans-serif; color:#333; margin:0; padding:0;}
+p span { font-style:italic;}
+h3 { font:normal 16px/24px Arial, Helvetica, sans-serif; color:#333; margin:0; padding:0;}
+
+h3 span { font-size:14px; font-style:italic;}
+.add-box { margin-top:40px;}
+
+ul.concerts-n-tickets{ overflow:hidden; margin:0; padding:1px 10px 30px; }
+ul.concerts-n-tickets li{float:left; padding:0 40px; width:280px; list-style:none;}
+ul.concerts-n-tickets li:first-child{padding:0 10px;}
+ul.concerts-n-tickets li:last-child{padding:0 10px;}
+.concerts-n-tickets h2 {margin: 0;padding: 0; color:#484848; font: bold 15px/18px Arial, Helvetica, sans-serif;}
+.concerts-n-tickets p {margin: 0;padding: 0; color:#484848; font: normal 11px/18px Arial, Helvetica, sans-serif; padding:0 0 5px;}
+a.rm{color:#05b3c8; text-transform:uppercase; font: normal 12px/18px Arial, Helvetica, sans-serif; text-decoration:none; display:block; width:90px; margin:0 0 15px;}
+a.rm:hover{color:#036773;}
+.concerts-n-tickets li img {
+    /*height: 250px;
+    width: 250px;*/
+    padding-bottom: 10px;
+}
+.topeven
+{
+	color: #05B3C8 !important;
+}
+.top-current-div
+{
+	background-color: #FFFFFF !important;
+    float: left;
+}
+.top-current-head a 
+{
+    color: #05B3C8 !important;
+    float: left;
+    font-size: 15px;
+    padding: 9px 0 0 420px;
+}
+.top-current-head h3 {
+    color: #494949 !important;
+    float: left;
+    font-weight: bold !important;
+    padding-top: 10px;
+    text-transform: uppercase !important;
+}
+.top-current-head
+{
+	float: left;
+	padding: 5px 0 0 15px;
+}
+.top-current-content
+{
+	float:left;
+}
+.sponsorcatshow
+{
+	 width:100%;
+}
+.sponsorcatshow th {
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    color: #333333;
+    padding: 4px;
+} 
+.sponsorcatshow td {
+    text-align:center;
+}
+.sponmaindiv
+{
+	box-shadow: 1px 1px 4px;
+    width: 660px;
+}
+.evenmaindiv{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    width: 300px;
+}
+.evenmaindiv h3{
+	background: none repeat scroll 0 0 #D3D3D3;
+    color: #000000;
+    padding: 1px 10px;
+    font-size: 15px;
+}
+.evenmaindiv p{
+	padding: 2px 10px;
+}
+.evenmaindiv p input[type="checkbox"]{
+	padding-right: 10px;
+	display: inline-block;
+    margin-right: 4px;
+}
+ 
+

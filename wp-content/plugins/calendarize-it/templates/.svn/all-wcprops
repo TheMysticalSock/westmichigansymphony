@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/wsso/!svn/ver/77/wp-content/plugins/calendarize-it1/templates
+END
+calendar-single-post.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/templates/calendar-single-post.php
+END
+shortcode_organizers_template_default.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/templates/shortcode_organizers_template_default.php
+END
+shortcode_venues_template_default.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/templates/shortcode_venues_template_default.php
+END
+filter_event_content.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wsso/!svn/ver/12/wp-content/plugins/calendarize-it1/templates/filter_event_content.php
+END
